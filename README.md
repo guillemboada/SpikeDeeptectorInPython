@@ -1,0 +1,7 @@
+# SpikeDeeptector in Python
+This repository contains the SpikeDeeptector implementation in Python, originally designed by **Saif-ur-Rehman, et al. 2019** and implemented in Matlab [here](https://github.com/saifhanjra/SpikeDeeptector). Together with the Notebook presenting the implementation and a use example, find the Matlab scripts that can be used to get the model parameters and some evaluation data from the original implementation (`GetParameters.m`, `GetEvaluationData.m`, `GetActivations.m`). For space reasons, these are not included (`parameters.mat`, `data_evaluation.mat`). A Utah array recording for the use example can be found in the dataset published by **Brochier, et al. 2018** [here](https://gin.g-node.org/INT/multielectrode_grasp). Additionally, the BlackRock library `brpylib.py` to read Utah array recordings is provided.
+
+Please write me if you have any question understanding the code (guillemboada@hotmail.com).
+## References
+* Saif-ur-Rehman, M. et al. *SpikeDeeptector: a deep-learning based method for detection of neural spiking activity*. J. Neural Eng. 16, (2019). doi: 10.1088/1741-2552/ab1e63.
+* Brochier, T. et al. *Data Descriptor: Massively parallel recordings in macaque motor cortex during an instructed delayed reach-to-grasp task*. Sci. Data 5, (2018). doi: 10.1038/sdata.2018.55.
